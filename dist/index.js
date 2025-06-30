@@ -15,7 +15,7 @@ app.use(express_1.default.json()); // Parse JSON requests
 app.get("/receive-data", function (_req, res) {
     res.status(200).json({ message: "GET request received successfully" });
 });
-var CLIENT_SECRET = "cfsk_ma_test_9286b08884bdd23d55799583bf5e0a9a_3efda642"; // Replace with actual secret
+var CLIENT_SECRET = ""; // Replace with actual secret
 var PayoutWebhookEvent = /** @class */ (function () {
     function PayoutWebhookEvent(type, rawBody, data) {
         this.type = type;

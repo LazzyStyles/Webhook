@@ -15,7 +15,7 @@ app.get("/receive-data", (_req: Request, res: Response) => {
     res.status(200).json({ message: "GET request received successfully" });
 });
   
-const CLIENT_SECRET = "cfsk_ma_test_9286b08884bdd23d55799583bf5e0a9a_3efda642"; // Replace with actual secret
+const CLIENT_SECRET = ""; // Replace with actual secret
 
 class PayoutWebhookEvent {
   type: string;
